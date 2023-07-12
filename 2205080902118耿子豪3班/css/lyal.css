@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Documnt */
+.warp{
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: url(../images/lxal-banner.png);
+    height: 589px
+}
+.header .nav{
+    overflow: hidden;
+}
+.header .nav ul{
+    margin-top: 45px;
+    float: right;
+}
+.header .nav ul li{
+    float: left;
+    margin-left: 45px;
+    font-weight: bold;
+}
+.header .nav ul li a{
+    color: #fff;
+}
+.header .nav ul li:nth-child(3) a{
+    color: #d94e50;
+}
+.header .nav ul li a:hover{
+    color: #d94e50;
+}
+.header .sdd{
+    text-align: center;
+    padding-top: 200px;
+}
+.header .sdd p{
+    font-size: 48px;
+    color: #fff;
+    padding-bottom: 26px;
+    letter-spacing: 3px;
+}
+.header .sdd h2{
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: 黑体;
+    margin-bottom: 33px;
+}
+.box{
+    padding-bottom: 60px;
+}
+.box .ulda{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.box ul{
+    width: 380px;
+    box-shadow: 0 0 5px #f4f4f4;
+    margin-top: 30px;
+}
+.box ul .nr1{
+    font-size: 16px;
+    padding: 20px 20px 10px 20px;
+}
+.box ul .nr1 p{
+    letter-spacing: 3px;
+    float: right;
+    color: #e54b4b;
+}
+.box ul .nr1 span{
+    letter-spacing: 3px;
+    color: #2c2c2c;
+    font-weight: bold;
+}
+.box ul .nr2{
+    float: left;
+    padding: 0 20px;
+}
+.box ul .nr2 p{
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #A7A7A7;
+}
+.box ul .nr3{
+    margin: 40px 0;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #999999;
+	
+}
+.box ul .red{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #D94E50;
+	display: flex;
+	justify-content: center;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+.box ul .red p{
+    margin-left: 15px;
+    letter-spacing: 3px;
+}
+.box ul:nth-child(1),.box ul:nth-child(2),.box ul:nth-child(3){
+    margin-top: 0;
+}
+.box .num{
+    width: 220px;
+    margin: 0 auto;
+}
+.box .num ul {
+    width: 220px;
+	margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .num ul li {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 37px;
+    border: 1px solid #e8ecee;
+    background-color: #efefef;
+}
+.box .num ul li:hover{
+	background-color: #e54b4b;
+}
+.box .num ul li a:hover{
+	color: #FFFFFF;
+}
+.box .num ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #748185;
+}
+
+.box .num ul li:last-child {
+	border-right: 1px solid #dadada;
+}
+
+.box .num ul .in {
+	background-color: #e54b4b;
+}
+
+.box .num ul .in a {
+	color: white;
+}
+footer{
+    width: 100%;
+    height: 340px;
+    background-color: #000;
+    color: #fff;
+}
+.foot{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+.foot1{
+    width: 260px;
+    margin-top: 100px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.foot .foot1 ul li{
+    font-size: 14px;
+}
+.foot2{
+    width: 85px;
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.foot2 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.foot2 a{
+    font-size: 14px;
+    color: #fff;
+}
+.foot2 a:hover{
+    color: #e54b4b;
+}
+.foot3{
+    margin-top: 50px;
+    font-size: 14px;
+    width: 200px;
+    line-height: 25px;
+}
+.foot3 p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.foot3 ul li{
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+}
